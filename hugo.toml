@@ -1,6 +1,6 @@
 # Hey, thanks for using my theme. If you like this theme,checkout my repo (https://gitlab.com/avron/gruvhugo"
 # and drop a star while you're at it. ;)
-baseurl = "https://examplesite.com/"
+baseurl = "https://tttago.github.io/labveilletech/"
 title = "Jane Doe"
 languageCode = "en-us"
 pagination.pagerSize  = "10" # Number of posts per page
@@ -32,7 +32,7 @@ metaDataFormat= "yaml"
   headerTitle = "Tiago Ferreira"
   copyright = "© 2024 Tiago Ferreira.  <a href=\"https://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>."
   name = "jane_doe"
-  img = "/images/photo.jpeg"
+  img = "/labveilletech/images/photo.jpeg"
   img_title = "Thanks to Christina @ wocintechchat.com for this photo."
   icon = "img/logo.png"
   quote = "Tu es le beau gosse que tu penses être"

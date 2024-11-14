@@ -20,7 +20,7 @@ J'ai choisi ce thème du SSG Hugo pour faire ce site pour sa simplicité et son 
 # Ikigai
 Voici l'Ikigai que j'ai réalisé afin de déterminer qui je suis réellement, ainsi que le métier que j'aimerais exercer dans le futur. J'ai pu déterminer que le métier que je pourrais faire après mes études est responsable en communication dans l'évènementiel.
 
-![Photo de Tiago](/images/Ikigai.svg)
+![Photo de Tiago](/labveilletech/images/Ikigai.svg)
 
 # Responsable en communication 
 Le responsable en communication dans l'événementiel coordonne et développe la stratégie de communication pour promouvoir un événement, attirant le public cible et les partenaires. Il gère la communication avant, pendant et après l'événement, supervise la création des supports de communication, assure les relations avec la presse, et suit les retombées médiatiques et les retours du public.
