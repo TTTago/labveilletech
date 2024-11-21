@@ -33,10 +33,10 @@ metaDataFormat= "yaml"
   copyright = "© 2024 Tiago Ferreira.  <a href=\"https://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>."
   name = "jane_doe"
   img = "/labveilletech/images/photo.jpeg"
-  img_title = "Thanks to Christina @ wocintechchat.com for this photo."
+  img_title = ""
   icon = "img/logo.png"
-  quote = "Tu es le beau gosse que tu penses être"
-  description= "ahahah loser"
+  quote = "Je suis un étudiant calme, ouvert d’esprit et motivé par la créativité et l’innovation."
+  description= "Je m’appelle Tiago Ferreira, j’ai 23 ans et je suis en 3ᵉ année d’ingénierie des médias à l’HEIG-VD. Mon parcours, débuté avec une spécialisation en communication et design au gymnase et à l’ERACOM, m’a permis d’acquérir des compétences solides en programmation, UX/UI, marketing et stratégies de communication. Curieux et créatif, je suis animé par une passion pour le design et l’innovation. Mon approche repose sur une écoute attentive et une capacité d’adaptation, ce qui me permet de répondre avec précision aux attentes des projets. Inspiré par mes hobbies comme la marche, le basket ou encore les jeux vidéo, je combine rigueur et imagination pour créer des solutions uniques et fonctionnelles, toujours en phase avec les besoins des utilisateurs."
   licenseUrl = ""
 
  # Social icons
@@ -81,10 +81,7 @@ metaDataFormat= "yaml"
     name       = "Articles"
     url        = "post/"
 
-  [[menu.main]]
-    identifier = "wiki"
-    name       = "Wiki"
-    url        = "none"
+     
 
 [markup]
   defaultMarkdownHandler = "goldmark"

@@ -1,46 +1,22 @@
 +++
-author = "Hugo Authors"
-title = "Emoji Support"
-date = "2019-03-05"
+author = "Tiago Ferreira"
+title = "Mon système de veille"
+date = "2024-11-21"
 description = "Guide to emoji usage in Hugo"
 tags = [
-    "emoji",
+    "veille",
 ]
 +++
 
-Emoji can be enabled in a Hugo project in a number of ways. 
-<!--more-->
-The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
+## Mes abonnements 
 
-To enable emoji globally, set `enableEmoji` to `true` in your site's [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
+Pour enrichir ma veille, je m'appuie sur divers médias spécialisés. Au niveau local, je suis Cominmag et Économie Suisse, qui proposent des articles intéressants, notamment sous leur rubrique "numérisation". À l'international, je m'intéresse particulièrement aux ressources anglophones, souvent riches et innovantes. Le Content Marketing Institute (CMI), une communauté centrée sur le content marketing, me permet de suivre les tendances et des études de cas via LinkedIn. Je consulte aussi le blog Digital Doughnut, qui offre une multitude d’articles, de ressources, et de webinaires. Enfin, du côté francophone, je suis Le Siècle Digital et Le Blog du Modérateur, qui me permettent de garder un œil sur les pratiques au-delà de nos frontières. Je complète cette veille avec Le Podcast du Marketing d’Estelle Ballot, qui aborde des thématiques variées, comme la stratégie marketing et le e-commerce.
 
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br>
+![Photo de Tiago](/labveilletech/images/veille.png)
+## Ma routine 
 
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+Chaque début de semaine, je prends un moment pour explorer ces différentes ressources et m’assurer d’être à jour sur ce qui se passe dans mon domaine. J'ai enregistré toutes ses ressources en favoris dans mon navigateur afin de les retrouver facilement quand je veux m'informer. Cette routine me permet de rester en phase avec les tendances actuelles et d’anticiper les évolutions. L’écoute régulière du Podcast du Marketing complète cette démarche en m’apportant des conseils pratiques et des perspectives enrichissantes, que je peux intégrer à ma réflexion. Cette approche équilibrée entre articles, études de cas et podcasts me permet de garder un lien constant avec les actualités du secteur.
 
-***
+## Conclusion 
 
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
-
-{{< highlight html >}}
-.emoji {
-  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
-{{< /highlight >}}
-
-{{< css.inline >}}
-<style>
-.emojify {
-	font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-	font-size: 2rem;
-	vertical-align: middle;
-}
-@media screen and (max-width:650px) {
-  .nowrap {
-    display: block;
-    margin: 25px 0;
-  }
-}
-</style>
-{{< /css.inline >}}
+En suivant ces multiples ressources, je suis en mesure de rester au fait des évolutions dans les domaines de la communication et du marketing. Cette veille, diversifiée par ses formats et ses horizons, m’aide à m’améliorer et à approfondir mes connaissances tout en revisitant certains concepts. Avec des outils comme Le Podcast du Marketing, elle me permet également de nourrir ma curiosité et de rester connecté aux grandes tendances du secteur.

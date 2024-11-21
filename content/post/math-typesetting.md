@@ -1,49 +1,25 @@
 ---
-author: Hugo Authors
-title: Math Typesetting
-date: 2019-03-08
+author: Tiago Ferreira
+title: "L’ère du marketing ATAWADAC : comment créer des contenus omnicanaux pour captiver une audience toujours plus connectée"
+date: 2024-11-20
 description: A brief guide to setup KaTeX
+tags : [
+    "marketing",
+    "stratégie",
+    "contenu",
+    "modèle",
+]
 math: true
 ---
 
-Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
-<!--more-->
+![Photo de Tiago](/labveilletech/images/marketing.jpg)
 
-In this example we will be using [KaTeX](https://katex.org/)
+Cet article explore le modèle ATAWADAC (AnyTime, AnyWhere, AnyDevice, AnyCulture), conçu pour répondre aux attentes d’une audience connectée et exigeante. Dans un monde numérique où les utilisateurs consomment des contenus sur divers appareils et dans tous les contextes, les marques doivent adopter une approche omnicanale qui assure une expérience fluide et cohérente, peu importe le support ou la plateforme.
 
-- Create a partial under `/layouts/partials/math.html`
-- Within this partial reference the [Auto-render Extension](https://katex.org/docs/autorender.html) or host these scripts locally.
-- Include the partial in your templates like so:  
+Pour réussir, il ne suffit pas de dupliquer le même contenu sur tous les canaux, mais de l’adapter à leurs spécificités tout en maintenant une identité de marque uniforme. Cela passe par le content mapping, qui guide la création de formats adaptés à chaque plateforme. Par exemple, un article approfondi convient à un blog, tandis qu’une vidéo courte fonctionne mieux sur les réseaux sociaux. L’article insiste également sur l’importance de la personnalisation, rendue possible grâce à l’analyse des données utilisateur, pour offrir une expérience sur mesure et engageante.
 
-```bash
-{{ if or .Params.math .Site.Params.math }}
-{{ partial "math.html" . }}
-{{ end }}
-```
+Enfin, une stratégie ATAWADAC efficace repose sur un suivi régulier des performances via des indicateurs clés comme le taux de clic ou l’engagement sur les réseaux sociaux. Ces données permettent d’ajuster les contenus et de maximiser leur impact, garantissant que les marques restent pertinentes dans un environnement en constante évolution.
 
-- To enable KaTex globally set the parameter `math` to `true` in a project's configuration
-- To enable KaTex on a per page basis include the parameter `math: true` in content files
+J’ai choisi cet article car il aborde une problématique essentielle dans le domaine de la communication : la capacité à s’adapter à une audience connectée, exigeante et omniprésente. Le modèle ATAWADAC et ses principes offrent une méthodologie claire pour créer des contenus omnicanaux personnalisés, tout en maintenant une cohérence de marque. L’article illustre l’importance de l’analyse des performances et de l’adaptation continue, des compétences indispensables pour réussir à capter et fidéliser une audience. Cet apprentissage me permettra de développer des stratégies flexibles et innovantes pour répondre aux attentes d’un public toujours plus connecté.
 
-**Note:** Use the online reference of [Supported TeX Functions](https://katex.org/docs/supported.html)
-
-{{< math.inline >}}
-{{ if or .Page.Params.math .Site.Params.math }}
-<!-- KaTeX -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-{{ end }}
-{{</ math.inline >}}
-
-### Examples
-
-{{< math.inline >}}
-<p>
-Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
-</p>
-{{</ math.inline >}}
-
-Block math:
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-$$
+[En savoir plus](https://siecledigital.fr/2024/11/13/lere-du-marketing-atawadac-comment-creer-des-contenus-omnicanaux-pour-captiver-une-audience-toujours-plus-connectee/ )

@@ -6,7 +6,6 @@ aliases = ["about-us", "about-hugo", "contact"]
 author = "Hugo Authors"
 +++
 
-Ajoute taxonomie, comment jai fait ce site et pourquoi jai choisi ce theme et mettre en avant le domaine que jai choisi
 
 # À propos de moi
 

@@ -18,15 +18,18 @@
                 <well class="well">
                   <h3><a class="link" href="{{.Permalink}}">{{.Title}}</a>
                     {{ if .Params.Author }}
-                    by <a class="link" href="{{ .Params.AuthorUrl }}">{{ .Params.Author }}</a></h3>
+                   
                   {{ end }}
-                    <h4>{{ .PublishDate.Format "January 2, 2006" }} | Reading Time: {{.ReadingTime}} min </h4>
+                  {{ $mois := dict "January" "Janvier" "February" "Février" "March" "Mars" "April" "Avril" "May" "Mai" "June" "Juin" "July" "Juillet" "August" "Août" "September" "Septembre" "October" "Octobre" "November" "Novembre" "December" "Décembre" }}
+                    {{ $month := index $mois (.PublishDate.Format "January") }}
+                    <h4>{{ .PublishDate.Format "2" }} {{ $month }} {{ .PublishDate.Format "2006" }} | Temps de lecture : {{ .ReadingTime }} min </h4>
+                    
                     <span class="tags">
                         {{range .Params.Tags }}
                         <h5><a class="tag" href='{{ "tags/" | absURL }}{{.}}'>{{.}}</a></h5>
                         {{end}}
                     </span>
-                    <p>{{ .Summary }}</p>
+                   
                 </well>
                 {{end}}            
             </div><br>
