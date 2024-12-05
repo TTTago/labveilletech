@@ -15,7 +15,7 @@ Pour enrichir ma veille, je m'appuie sur divers médias spécialisés. Au niveau
 ![Photo de Tiago](/labveilletech/images/veille.png)
 ## Ma routine 
 
-Chaque début de semaine, je prends un moment pour explorer ces différentes ressources et m’assurer d’être à jour sur ce qui se passe dans mon domaine. J'ai enregistré toutes ses ressources en favoris dans mon navigateur afin de les retrouver facilement quand je veux m'informer. Cette routine me permet de rester en phase avec les tendances actuelles et d’anticiper les évolutions. L’écoute régulière du Podcast du Marketing complète cette démarche en m’apportant des conseils pratiques et des perspectives enrichissantes, que je peux intégrer à ma réflexion. Cette approche équilibrée entre articles, études de cas et podcasts me permet de garder un lien constant avec les actualités du secteur.
+Chaque début de semaine, je prends un moment pour explorer ces différentes ressources et m’assurer d’être à jour sur ce qui se passe dans mon domaine. J'ai enregistré toutes ses ressources en favoris dans mon navigateur dans un dossier nommé "veille", afin de les retrouver facilement quand je veux m'informer. Cette routine me permet de rester en phase avec les tendances actuelles et d’anticiper les évolutions. L’écoute régulière du Podcast du Marketing complète cette démarche en m’apportant des conseils pratiques et des perspectives enrichissantes, que je peux intégrer à ma réflexion. Cette approche équilibrée entre articles, études de cas et podcasts me permet de garder un lien constant avec les actualités du secteur.
 
 ## Conclusion 
 

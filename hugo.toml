@@ -30,7 +30,7 @@ metaDataFormat= "yaml"
   enableKatex = true
   metaKeywords = "fast, hugo, theme, minimal, gruvbox"
   headerTitle = "Tiago Ferreira"
-  copyright = "© 2024 Tiago Ferreira.  <a href=\"https://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>."
+  copyright = "© 2024 Tiago Ferreira. Some rights reserved."
   name = "jane_doe"
   img = "/labveilletech/images/photo.jpeg"
   img_title = ""
@@ -40,25 +40,10 @@ metaDataFormat= "yaml"
   licenseUrl = ""
 
  # Social icons
-  [[params.social]]
-    name = "gitlab"
-    url  = "https://gitlab.com/avron/gruvhugo"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:mail@mail.com"
-
-  [[params.social]]
-    name = "gpg"
-    url  = "https://keys.openpgp.org/"
-
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/"
+    url  = "mailto:tiago.ferreira@heig-vd.ch"
 
   [[params.social]]
     name = "linkedin"
